@@ -1,0 +1,26 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Esta es una librería para el curso de Node.js en Devcode.la",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Ciro Yupanqui Pumachapi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "connect-redis": "^3.3.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "formidable": "^1.1.1",
+    "mongoose": "^4.11.5",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "quickthumb": "0.0.12",
+    "slug": "^0.9.1",
+    "swig": "^1.4.2"
+  }
+}
